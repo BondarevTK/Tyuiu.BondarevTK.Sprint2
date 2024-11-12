@@ -1,0 +1,22 @@
+using Microsoft.VisualStudio.TestPlatform.Common.DataCollection;
+using Tyuiu.BondarevTK.Sprint2.Task0.V2.Lib;
+namespace Tyuiu.BondarevTK.Sprint2.Task0.V2.Test
+{
+    [TestClass]
+    public class DataServiceTest
+    {
+        [TestMethod]
+        public void ValidGetCompareOperations()
+        {
+            DataService ds = new DataService();
+            int x = 5;
+            int y = 6;
+            bool[] res = new bool[6];
+            res = ds.GetCompareOperations(x, y);
+            bool[] wait = new bool[6] { false, true, false, true, false, true };
+
+            CollectionAssert.AreEqual(wait, res);
+
+        }
+    }
+}
