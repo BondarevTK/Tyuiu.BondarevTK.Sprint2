@@ -9,8 +9,8 @@ namespace Tyuiu.BondarevTK.Sprint2.Task0.V2.Test
         public void ValidGetCompareOperations()
         {
             DataService ds = new DataService();
-            int x = 5;
-            int y = 6;
+            int x = 123;
+            int y = 123;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
             bool[] wait = new bool[6] { false, true, false, true, false, true };
