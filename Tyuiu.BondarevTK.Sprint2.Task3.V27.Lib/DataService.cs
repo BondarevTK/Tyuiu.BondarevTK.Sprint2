@@ -8,7 +8,7 @@ namespace Tyuiu.BondarevTK.Sprint2.Task3.V27.Lib
             double res = new double();
             if (x>0)
             {
-                double wait = (x + 1) / Math.Sin(Math.Pow(x, 2)) + x - 0.5;
+                double wait = (x + 1) / (Math.Sin(Math.Pow(x, 2)) + x - 0.5);
                 res = x * Math.Pow(wait, x);
             }
             else
