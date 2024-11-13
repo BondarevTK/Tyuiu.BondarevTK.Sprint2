@@ -9,7 +9,7 @@ namespace Tyuiu.BondarevTK.Sprint2.Task3.V27.Test
         {
             DataService ds = new DataService();
             double res = ds.Calculate(-10);
-            Assert.AreEqual(1.0201, res);
+            Assert.AreEqual(1.020, res);
         }
     }
 }

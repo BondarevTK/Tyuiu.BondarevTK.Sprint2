@@ -32,7 +32,7 @@ namespace Tyuiu.BondarevTK.Sprint2.Task3.V27.Lib
                     }
                 }
             }
-            return res;
+            return Math.Round(res,3) ;
         }
     }
 }
