@@ -6,7 +6,7 @@ namespace Tyuiu.BondarevTK.Sprint2.Task3.V27
     {
         static void Main(string[] args)
         {
-            int x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             DataService ds = new DataService();
             Console.WriteLine(ds.Calculate(x));
 
