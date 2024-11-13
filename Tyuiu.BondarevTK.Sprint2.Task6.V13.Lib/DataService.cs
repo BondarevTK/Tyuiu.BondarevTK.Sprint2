@@ -35,18 +35,18 @@ namespace Tyuiu.BondarevTK.Sprint2.Task6.V13.Lib
             }
             switch (m)
             {
-                case 1: return (n +"Январь"+ g);
-                case 2: return (n+"Февраль" + g);
-                case 3: return (n + "Март" + g);
-                case 4: return (n + "Апрель" + g);
-                case 5: return (n + "Май" + g);
-                case 6: return (n + "Июнь" + g);
-                case 7: return (n + "Июль" + g);
-                case 8: return (n + "Август" + g);
-                case 9: return (n + "Сентябрь" + g);
-                case 10: return (n + "Октябрь" + g);
-                case 11: return (n + "Ноябрь" + g);
-                case 12: return (n + "Декабрь" + g);
+                case 1: return ("0"+n +"."+"01"+"."+ g);
+                case 2: return ("0" + n + "." + "02" + "." + g);
+                case 3: return ("0" + n + "." + "03" + "." + g);
+                case 4: return ("0" + n + "." + "04" + "." + g);
+                case 5: return ("0" + n + "." + "05" + "." + g);
+                case 6: return ("0" + n + "." + "06" + "." + g);
+                case 7: return ("0" + n + "." + "07" + "." + g);
+                case 8: return ("0" + n + "." + "08" + "." + g);
+                case 9: return ("0" + n + "." + "09" + "." + g);
+                case 10: return ("0" + n + "." + "10" + "." + g);
+                case 11: return ("0" + n + "." + "11" + "." + g);
+                case 12: return ("0" + n + "." + "12" + "." + g);
                 default: return ("err");
             }
 
